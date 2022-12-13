@@ -32,3 +32,11 @@ timestr = time_p.__str__() # makes sure to get the value to string
 time_p.pause() # paused
 time_pause.pause() # unpaused
 ```
+# How to test if the module works?
+
+First of all get the filez where the module is:
+```python
+import time_pause, os
+print(os.path.dirname(time_pause.__file__))
+```
+then open the file and run it like any other python script.<br/> a window should appears
