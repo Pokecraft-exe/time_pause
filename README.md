@@ -28,7 +28,7 @@ timestr = time_p.__str__() # makes sure to get the value to string
 
 ```python
 time_p.pause() # paused
-time_pause.pause() # unpaused
+time_p.pause() # unpaused
 ```
 # How to test if the module works?
 
@@ -38,3 +38,7 @@ import time_pause, os
 print(os.path.dirname(time_pause.__file__))
 ```
 then open the file and run it like any other python script.<br/> a window should appears
+
+# what are ,,__PRIVATE__'' functions in the class?
+
+Functions that begins with **__PRIVATE__** are used by the class to do special stuff that can't be done without a function.
