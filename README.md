@@ -9,11 +9,9 @@ This python library serves to pause the time just like Za Warudo from Jojo
 ## usage
 ```python
 import time_pause
-# or
-from time_pause import *
-
 time_p = time_pause.time_p()
 # or
+from time_pause import *
 time_p = time_p()
 ```
 
